@@ -1,5 +1,5 @@
 function lucro(){
-    let preco = 5,0
+    let preco = 5.0
     let qtd = 120
     const despesa = 200
     let lucro
