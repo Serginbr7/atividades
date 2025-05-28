@@ -1,5 +1,9 @@
 function lucro(){
+<<<<<<< HEAD
     let preco = 5
+=======
+    let preco = 5.0
+>>>>>>> 34629a45a5086c6d5395193851d98153e18cfec6
     let qtd = 120
     const despesa = 200
     let lucro
