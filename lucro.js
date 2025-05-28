@@ -1,5 +1,5 @@
 function lucro(){
-    let preco = 5,0
+    let preco = 5
     let qtd = 120
     const despesa = 200
     let lucro
@@ -17,3 +17,23 @@ alert(aux)
 }
 
 // calcular maior lucro maior despezqa e maior preço
+
+function exe7(){
+    let idade, altura, peso
+    let idadesup = 0, mediaaltura = 0, pesomenor40 = 0
+    let idademaior50, somaaltura, dezevinte
+
+    for(i=0; i<=5; i++){
+    idade = number(prompt('Informe o nome'))
+    altura = number(prompt('Informe a altura'))
+    peso = number(prompt('informe o peso'))
+        if(idade > 50){
+            idademaior50 ++
+        }
+        if(idade >=10 && idade<=20){
+            dezevinte++
+            mediaaltura = (somaaltura + altura) / dezevinte
+        }
+        
+}
+}
