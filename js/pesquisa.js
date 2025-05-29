@@ -44,3 +44,53 @@ function pesquisaSatisfacao() {
         `
     )
 }
+
+function exe8(){
+    let idade, peso, altura, olhos, cabelos
+    let qtdvelhosmagros = 0, baixinhos = 0
+
+    for(let conta = 1; conta <=6; conta++){
+        do{(idade = number(prompt('Digite a Idade:')))}
+        while(Idade<0)
+
+        do{
+        peso = number(prompt('Digite o peso'))
+        }
+        while(peso<0)
+
+        do{
+            altura = number(prompt('Digite a altura:'))
+        }
+        while(altura<0)
+    
+        do {
+            olhos = prompt('Informe a cor dos olhos: A Azul, V Verde, C Castanho e P Preto')
+        }
+        while(olhos !=A && olhos !=V && olhos !=P && olhos !=C)
+
+        do {
+        cabelos = prompt('Escreva a cor dos cabelos L Loiro, R Ruivo, P Preto, C Castanho')
+        }
+        while(cabelos !=L && cabelos !=V && cabelos !=P && cabelos !=C)
+
+        //item 1
+        if(idade >50 && peso <60){
+            qtdvelhosmagros ++
+        }
+
+        //item 2
+        if(altura<1.50){
+            baixinhos = baixinhos + altura
+        }
+
+        //item 3
+        if(olhos = A)
+
+
+
+
+
+    }
+
+
+}
