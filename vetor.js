@@ -15,3 +15,8 @@ function vetor(){
 //calcular e exiir:
 //os numeros oares e a qtd de pares
 //os numeros impares e a qtde de impares
+
+//faça um porograma em JS eque solicite 10 numeros
+//calcule e mostre o betor alterado da seguinte forma:
+//nas posições pares, comar 10 no elemento
+//nas posições ímpares, multiplicar por 3 o elemento
